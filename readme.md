@@ -36,4 +36,4 @@ Has install all environment
 # LICENSE
 By contributing, you agree that your contributions will be licensed under its [Creative Commons Zero v1.0 Universal](LICENSE) License.
 # Contributors
-> contributor
+[Contributing Guide](contributing.md)
