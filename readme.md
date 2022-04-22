@@ -9,11 +9,8 @@ teman-teman bisa mencari dari refrensi lain.
 
 ## Daftar Content
 
-<details>
-<summary><b>Expand Table of Contents</b></summary>
 - [Basic Javascript](modules/01.Basic/readme.md)
     - [Git](modules/01.Basic/01.git.md)
-</details>
 
 # Setup
 
