@@ -9,7 +9,7 @@ teman-teman bisa mencari dari refrensi lain.
 
 ## Daftar Content
 
-- [Basic Javascript](modules/01.Basic/readme.md)
+1. [Basic Javascript](modules/01.Basic/readme.md)
     - [Git](modules/01.Basic/01.git.md)
 
 # Setup
@@ -18,12 +18,12 @@ teman-teman bisa mencari dari refrensi lain.
 
 Has install all environment
 
-- Source Version Control: Git
-- nodejs
+- Source Version Control: [Git](https://git-scm.com/)
+- [nodejs](https://nodejs.org/en/)
 - npm/yarn
-- Visual Studio Code
-- Docker
-- ohmyz
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Docker](https://docs.docker.com/)
+- [ohmyz](https://ohmyz.sh/)
 
 ## VS Code Extension
 
@@ -31,3 +31,9 @@ Has install all environment
 2. [Git Lens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 3. [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 4. [ESlint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+
+# LICENSE
+By contributing, you agree that your contributions will be licensed under its [Creative Commons Zero v1.0 Universal](LICENSE) License.
+# Contributors
+> contributor
