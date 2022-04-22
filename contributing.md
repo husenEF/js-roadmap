@@ -22,7 +22,24 @@ $ git checkout -b [category][modules-name]
 
 
 ### Push
-after finish your modules, you can push to your branch and make **Pull Request**. go to Project page, and click **pull request**
+after finish your modules, you can push to your branch and make **Pull Request**. 
+but, make sure your branch updated with main branch. go to Project page, and click **pull request**
+
+**Update with main branch**'
+1. Merge (execute from the branch)
+    ```
+    $ git pull (or git fetch)
+    $ git merge origin/develop
+    $ git push
+    ```
+2. Rebase (execute from the branch)
+   ```
+   $ git pull --rebase (or git fetch)
+   $ git rebase origin/develop
+   $ git push --force (or git push -f)
+   ```
+
+**Create Pull Request**
 
 ![image](https://user-images.githubusercontent.com/546566/164817281-91a1497e-f824-473a-9018-3de8700e5b1a.png)
 
