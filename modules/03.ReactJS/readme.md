@@ -6,7 +6,7 @@
 
 </div>
 
-## Daftar Kontent
+## Content List
 
 1. [ ] Introduction React
 2. [ ] 

@@ -5,7 +5,7 @@
 </div>
 
 
-## Daftar Kontent
+## Content List
 
 1. [ ] Rest API
 2. [ ] Tools & Design

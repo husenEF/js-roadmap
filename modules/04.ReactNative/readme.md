@@ -4,7 +4,7 @@
 <p>this module to lear React Native Basic.</p>
 </div>
 
-## Daftar Kontent
+## Content List
 
 1. [ ] Introduction React Native
 2. [ ]... etc

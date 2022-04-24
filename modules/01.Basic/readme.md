@@ -4,7 +4,7 @@
 <p>this first module to learn javascript basic.</p>
 </div>
 
-## Daftar Kontent
+## Content List
 
 1. [x] [Git](01.git.md)
 2. [ ] Variable, Data types

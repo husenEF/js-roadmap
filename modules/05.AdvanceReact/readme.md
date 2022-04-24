@@ -4,7 +4,7 @@
 <p>This is module for learn Advance react with third party library</p>
 </div>
 
-## Daftar Kontent
+## Content List
 
 1. [ ] state management redux
 2. [ ] react camera
