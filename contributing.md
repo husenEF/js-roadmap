@@ -85,46 +85,8 @@ $ git checkout -b hotfix/[category][module_name]
 
 ### Push
 
-after finish your modules, you can push to your branch and make **Pull Request**. 
-but, make sure your branch updated with main branch. go to Project page, and click **pull request**
+after finish your modules, you can push to your local repo and make **Pull Request**. 
+but, make sure your branch [updated](#update-your-repo) with main branch. go to Project page, and click **pull request**
 
 ![Screenshot from 2022-04-24 12-54-53](https://user-images.githubusercontent.com/91042496/164958722-ca71d69b-a68a-4f82-832c-3e1857b0cee3.png)
 
-
-**Update with main branch**'
-1. Merge (execute from the branch)
-    ```
-    $ git pull (or git fetch)
-    $ git merge origin/develop
-    $ git push
-    ```
-2. Rebase (execute from the branch)
-   ```
-   $ git pull --rebase (or git fetch)
-   $ git rebase origin/develop
-   $ git push --force (or git push -f)
-   ```
-
-**Create Pull Request**
-
-![image](https://user-images.githubusercontent.com/546566/164817281-91a1497e-f824-473a-9018-3de8700e5b1a.png)
-
-if you have some branch, yout branch will appear like this:
-![image](https://user-images.githubusercontent.com/546566/164817451-5077e34a-38ca-4315-b2d6-3a68655e469b.png)
-
-then, you can clik **Compare & pull request** and you will page for create new pull request. You can chosse **Reviewers** and also the someone to merge your Pull request in **Assignees Section**.
-update your Detail. what do you update ,for example:
-```
-New Modules:
-- int.md
-- var.md
-
-or
-
-update/fix module:
-- int.md
-- var.md
-```
-![image](https://user-images.githubusercontent.com/546566/164817559-dae1466e-d415-45da-a77f-856d5ea92f95.png)
-
-and click button `Create pull Request` and waiting your pull request is accepted
