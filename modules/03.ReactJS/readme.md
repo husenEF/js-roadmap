@@ -1,7 +1,9 @@
 <div align="center">
 <h1>Basic React JS</h1>
 
-<p>ini adalah module lanjutan untuk programer react js.</p>
+<p>this first module to learn React js basic.</p>
+</div>
+
 </div>
 
 ## Daftar Kontent
