@@ -36,13 +36,28 @@ If you have something module to contribute to an roadmap, this is how you do it.
 You'll need a [GitHub account](https://github.com/join)!.
 and craate yout [**Pull Request**](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) or follow this step
 
-### Clone
-```cli
-$ git clone git@github.com:husenEF/js-roadmap.git
-$ cd js-roadmap
+### Code Contributions 
+
+1. fork the repository on GitHub
+2. Clone your repository have been forked
+3. update some content/codes
+4. push to your repository have been forked
+5. create `pull request` and the target will assign to main repo.
+
+
+### Update your repo
+before we update your repo have been forked, you need to update first, follow this step to update/rebase your local repo
+```clis
+$ git remote add upstream git@github.com:husenEF/js-roadmap.git
+$ git fetch upstream
+$ git rebase upstream/main
+$ git push origin main --force
 ```
+
+<br/>
+
 ### Add new
-i like git workflow from [nvie](https://nvie.com/posts/a-successful-git-branching-model/), they have status like `feature`, 'hotfix' and'release'.
+i like git workflow from [nvie](https://nvie.com/posts/a-successful-git-branching-model/), they have status like `feature`, `hotfix` and `release`.
 you can put `hotfix`, `feature` on your branch name
 
 ```cli
@@ -72,6 +87,9 @@ $ git checkout -b hotfix/[category][module_name]
 
 after finish your modules, you can push to your branch and make **Pull Request**. 
 but, make sure your branch updated with main branch. go to Project page, and click **pull request**
+
+![Screenshot from 2022-04-24 12-54-53](https://user-images.githubusercontent.com/91042496/164958722-ca71d69b-a68a-4f82-832c-3e1857b0cee3.png)
+
 
 **Update with main branch**'
 1. Merge (execute from the branch)
