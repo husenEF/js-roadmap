@@ -28,6 +28,7 @@ and use [snake case](https://betterprogramming.pub/string-case-styles-camel-pasc
 ```
 <br/>
 <br/>
+
 ## Adding something to this Road Map
 
 If you have something module to contribute to an roadmap, this is how you do it.
@@ -37,19 +38,38 @@ and craate yout [**Pull Request**](https://docs.github.com/en/pull-requests/coll
 
 ### Clone
 ```cli
-$ git@github.com:husenEF/js-roadmap.git
+$ git clone git@github.com:husenEF/js-roadmap.git
 $ cd js-roadmap
-// create new branch
-$ git checkout -b [category][modules-name]
 ```
+### Add new
+i like git workflow from [nvie](https://nvie.com/posts/a-successful-git-branching-model/), they have status like `feature`, 'hotfix' and'release'.
+you can put `hotfix`, `feature` on your branch name
 
+```cli
+// create new branch
+$ git checkout -b feature/[category][module_name] 
+
+```
 **branch name**: 
  - category : Basic, Api Concept, React JS, React Native or Advance React
  - modules name : container **number** & **title**
  - see [folder structur](#folder-structur)
 
+<br/>
+<br/>
+
+### Update or Fix
+
+```bash
+//update or hotfix
+$ git checkout -b hotfix/[category][module_name]
+```
+
+<br/>
+<br/>
 
 ### Push
+
 after finish your modules, you can push to your branch and make **Pull Request**. 
 but, make sure your branch updated with main branch. go to Project page, and click **pull request**
 
@@ -78,6 +98,12 @@ then, you can clik **Compare & pull request** and you will page for create new p
 update your Detail. what do you update ,for example:
 ```
 New Modules:
+- int.md
+- var.md
+
+or
+
+update/fix module:
 - int.md
 - var.md
 ```

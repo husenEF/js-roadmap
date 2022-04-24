@@ -4,7 +4,6 @@
  for learning Javascript from Basic untuk React JS Advance.</p>
 <p>I hope this roadmap can help you to learn React from Basic</p>
 </div>
-# Setup
 
 ## Prerequisites
 
