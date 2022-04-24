@@ -23,7 +23,6 @@ and use [snake case](https://betterprogramming.pub/string-case-styles-camel-pasc
 │   │   └── readme.md
 │   └── 05.AdvanceReact
 │       └── readme.md
-├── readme_backup.md
 └── readme.md
 ```
 <br/>
@@ -46,7 +45,7 @@ and craate yout [**Pull Request**](https://docs.github.com/en/pull-requests/coll
 
 
 ### Update your repo
-before we update your repo have been forked, you need to update first, follow this step to update/rebase your local repo
+before update your repo have been forked, you need to update with `main` branch from [main repo](https://github.com/husenEF/js-roadmap), follow this step to update/rebase your local repo
 ```clis
 $ git remote add upstream git@github.com:husenEF/js-roadmap.git
 $ git fetch upstream
@@ -57,7 +56,7 @@ $ git push origin main --force
 <br/>
 
 ### Add new
-i like git workflow from [nvie](https://nvie.com/posts/a-successful-git-branching-model/), they have status like `feature`, `hotfix` and `release`.
+I like git workflow from [nvie](https://nvie.com/posts/a-successful-git-branching-model/), they have many status like `feature`, `hotfix` and `release`.
 you can put `hotfix`, `feature` on your branch name
 
 ```cli
@@ -67,7 +66,7 @@ $ git checkout -b feature/[category][module_name]
 ```
 **branch name**: 
  - category : Basic, Api Concept, React JS, React Native or Advance React
- - modules name : container **number** & **title**
+ - modules name : contain **number** & **title**
  - see [folder structur](#folder-structur)
 
 <br/>
@@ -86,7 +85,7 @@ $ git checkout -b hotfix/[category][module_name]
 ### Push
 
 after finish your modules, you can push to your local repo and make **Pull Request**. 
-but, make sure your branch [updated](#update-your-repo) with main branch. go to Project page, and click **pull request**
+but, make sure your branch is [updated](#update-your-repo) from [main repo](https://github.com/husenEF/js-roadmap). go to Project page, and click **pull request**
 
 ![Screenshot from 2022-04-24 12-54-53](https://user-images.githubusercontent.com/91042496/164958722-ca71d69b-a68a-4f82-832c-3e1857b0cee3.png)
 

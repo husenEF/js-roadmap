@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Road Map To RN Developer</h1>
-<p>this is a roadmap to be React Native Developer. ist not 100% right, but you can use this roadmap ot this pattern
- for learning Javascript from Basic untuk React JS Advance.</p>
+<p>this is a roadmap to be React Native Developer. ist not 100% right, but you can use this roadmap or this pattern
+ for learning Javascript from Basic until React JS Advance.</p>
 <p>I hope this roadmap can help you to learn React from Basic</p>
 </div>
 

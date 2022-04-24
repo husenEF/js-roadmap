@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Basic React Native</h1>
 
-<p>this module to lear React Native Basic.</p>
+<p>this module to learn React Native Basic.</p>
 </div>
 
 ## Content List
